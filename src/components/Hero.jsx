@@ -12,7 +12,6 @@ export const Hero = () => {
             <div className={`${MainStyles.Column}`}>
                 <ProjectCard ImgSrc={OrderSummaryCard}/>
             </div>
-ssss
         </div>
     )
 }
