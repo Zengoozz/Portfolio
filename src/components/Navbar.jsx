@@ -9,7 +9,7 @@ const NavItem = (props) => {
 
     return (
         <li
-            className={`${props.ActiveNav != props.Name ? "text-white" : "gradient_text scale-110 underline"} ml-10 text-2xl font-medium capitalize cursor-pointer hover:underline ${MainStyles.Scale110Hover500}`}
+            className={`${props.ActiveNav != props.Name ? "text-white" : "gradient_text font-semibold scale-110 underline"} ml-10 text-2xl font-medium capitalize cursor-pointer hover:underline ${MainStyles.Scale110Hover500}`}
             onClick={() => props.OnNavClick(props.Name)}
         >
             {props.Name}
