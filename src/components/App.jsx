@@ -5,7 +5,7 @@ import { Hero } from './Hero'
 function App() {
 
   return (
-    <div className={`${MainStyles.MainBgGradientReversed} relative`}>
+    <div className={`gradient_bg relative`}>
       <Navbar />
       <Hero />
     </div>

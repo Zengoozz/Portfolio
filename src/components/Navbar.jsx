@@ -9,7 +9,7 @@ const NavItem = (props) => {
 
     return (
         <li
-            className={`${props.ActiveNav != props.Name ? "text-white" : "text-gray-300 scale-110 underline"} ml-10 text-2xl font-medium capitalize cursor-pointer hover:underline ${MainStyles.Scale110Hover500}`}
+            className={`${props.ActiveNav != props.Name ? "text-white" : "gradient_text scale-110 underline"} ml-10 text-2xl font-medium capitalize cursor-pointer hover:underline ${MainStyles.Scale110Hover500}`}
             onClick={() => props.OnNavClick(props.Name)}
         >
             {props.Name}
@@ -22,7 +22,7 @@ export const Navbar = () => {
 
 
     return (
-        <nav className={`${MainStyles.MainBgGradient} sticky top-0 text-white `}>
+        <nav className={`${MainStyles.MainBgGradientReversed} sticky top-0 text-white `}>
             <div className={`max-w-screen`}>
                 <div className={`${MainStyles.RowCenteredItems} h-16 justify-between relative`}>
                     <div className={`${MainStyles.RowCenteredItems} gap-10 px-5 absolute`}>
