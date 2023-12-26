@@ -10,7 +10,7 @@ export const Hero = () => {
             <div className={`${MainStyles.RowCenteredJustified}`}>
             </div>
             <div className={`${MainStyles.Column}`}>
-                <ProjectCard ImgSrc={OrderSummaryCard}/>
+                <ProjectCard ImgSrc={OrderSummaryCard}/>np
             </div>
         </div>
     )

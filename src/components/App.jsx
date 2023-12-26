@@ -1,4 +1,3 @@
-import '../styles/App.css'
 import { Navbar } from './Navbar'
 import * as MainStyles from '../styles/mainStyles'
 import { Hero } from './Hero'
