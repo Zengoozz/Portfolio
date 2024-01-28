@@ -1,13 +1,13 @@
 import { Navbar } from './Navbar'
 import * as MainStyles from '../styles/mainStyles'
-import { Hero } from './Hero'
+import { About } from './About'
 
 function App() {
 
   return (
-    <div className={`gradient_bg relative`}>
+    <div className={`gradient_bg relative h-[100vh]`}>
       <Navbar />
-      <Hero />
+      {/* <About /> */}
     </div>
   )
 }

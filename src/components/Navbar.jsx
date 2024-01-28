@@ -1,9 +1,8 @@
-// import {MainStyles} from '../styles/mainStyles'
 import * as MainStyles from '../styles/mainStyles'
 import ProfilePic from '../assets/ProfilePic.jpeg'
 import { useState } from 'react'
 
-const NavItemsArray = ["Home", "Education", "Experience", "Projects"]
+const NavItemsArray = ["About", "Resume", "Portfolio", "Contact"]
 
 const NavItem = (props) => {
 
@@ -18,11 +17,11 @@ const NavItem = (props) => {
 }
 
 export const Navbar = () => {
-    const [ActiveNavItem, SetActiveNavItem] = useState("");
+    const [ActiveNavItem, SetActiveNavItem] = useState("About");
 
 
     return (
-        <nav className={`${MainStyles.MainBgGradientReversed} sticky top-0 text-white `}>
+        <nav className={`${MainStyles.MainBgGradientReverseds} sticky top-0 text-white `}>
             <div className={`max-w-screen`}>
                 <div className={`${MainStyles.RowCenteredItems} h-16 justify-between relative`}>
                     <div className={`${MainStyles.RowCenteredItems} gap-10 px-5 absolute`}>

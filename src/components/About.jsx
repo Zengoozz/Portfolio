@@ -4,7 +4,7 @@ import { ProjectCard } from "./helperComponents/ProjectCard"
 import OrderSummaryCard from '../assets/OrderSummaryCard.png'
 
 
-export const Hero = () => {
+export const About = () => {
     return (
         <div className={`h-screen flex flex-col justify-start`}>
             <div className={`${MainStyles.RowCenteredJustified}`}>
